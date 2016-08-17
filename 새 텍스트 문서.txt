@@ -9,3 +9,4 @@ public void testConnection() throws Exception{
 		Connection con = DriverManager.getConnection(URL, USER, PW);
 		System.out.println(con);
 }dfdfdfdfdfdf
+br1dfd
