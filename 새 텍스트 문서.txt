@@ -1,0 +1,11 @@
+public void testConnection() throws Exception{
+		
+		final String DRIVER = "com.mysql.jdbc.Driver";
+		final String URL = "jdbc:mysql://192.168.23.110:33060";
+		final String USER = "root";
+		final String PW = "koposw";
+		
+		Class.forName(DRIVER);
+		Connection con = DriverManager.getConnection(URL, USER, PW);
+		System.out.println(con);
+}
