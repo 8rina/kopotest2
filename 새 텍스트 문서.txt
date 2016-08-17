@@ -7,6 +7,6 @@ public void testConnection() throws Exception{
 		
 		Class.forName(DRIVER);
 		Connection con = DriverManager.getConnection(URL, USER, PW);
-		System.out.println(con);
+		System.out.println(con);dfedrwer
 }dfdfdfdfdfdf
 br1dfdfd
